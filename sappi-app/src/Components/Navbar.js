@@ -30,7 +30,7 @@ const Navbar = () => {
                     </div>
                     <nav className="hidden space-x-10 md:flex">
                         <div className="relative sub-menu">
-                            <button type="button" class="toggle text-black group inline-flex items-center rounded-md bg-white text-base font-medium focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2" aria-expanded="false">
+                            <a href="/ourstory" type="button" class="toggle text-black group inline-flex items-center rounded-md bg-white text-base font-medium focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2" aria-expanded="false">
                                 <span>ABOUT US</span>
                                 {/* Heroicon name: mini/chevron-down
 
@@ -39,17 +39,16 @@ const Navbar = () => {
                                 <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                                 </svg>
-                            </button>
+                            </a>
                         </div>
 
-
                         <div className="relative">
-                            <button type="button" class="text-black group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2" aria-expanded="false">
+                            <a href="/projects"  class="text-black group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2" aria-expanded="false">
                                 <span>PROJECTS</span>
                                 <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
                                 </svg>
-                            </button>
+                            </a>
                         </div>
 
                         {/* News page link */}

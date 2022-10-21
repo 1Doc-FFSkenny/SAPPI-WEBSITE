@@ -9,6 +9,8 @@ import './App.css';
 import Dropdown from './Components/Dropdown';
 import Footer from './Components/Footer';
 import Contact from './Components/Contact';
+import Ourstory from './Components/Ourstory';
+import Projects from './Components/Projects';
 
 
 
@@ -19,6 +21,8 @@ const App = () => {
       <Routes>
         <Route  path='/' element={<Home/>} />
         <Route  path='/contact' element={<Contact/>} />
+        <Route  path='/ourstory' element={<Ourstory/>} />
+        <Route  path='/projects' element={<Projects/>} />
       </Routes>
       <Footer />
     </div>
