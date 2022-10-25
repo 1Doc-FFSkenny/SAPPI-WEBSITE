@@ -100,19 +100,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Quote Section
-
-                <div data-aos="fade-right" class="container h-full mx-auto flex px-6 py-44 md:flex-row flex-col items-center max-w-12xl">
-                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                        <img class="object-cover h-96" alt="hero" src="https://images.unsplash.com/photo-1519494140681-8b17d830a3e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" />
-                    </div>
-                    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                        <h1 class="text-3xl font-semibold text-center mb-4 md:text-left text-gray-800 capitalize lg:text-5xl md:text-6xl">We are S.A.P.P.I</h1>
-                        <p className='mb-8 leading-relaxed text-md md:text-lg' >Sharing in your vision and goal ,  we strive to work with you to arrive at those.  Focused on information technologies and proven technology solutions that fit your financial parameters,  we partner with you for solutions that is apt to your specific situation. </p>
-                    </div>
-                </div> */}
-
             </div>
         </div >
 

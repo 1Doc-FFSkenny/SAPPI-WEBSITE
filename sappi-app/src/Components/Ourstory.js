@@ -76,15 +76,15 @@ const Ourstory = () => {
         </div>
       </div>
 
-
+    
       {/* CTA Section */}
       <div className='h-full '>
-        <div className='bg-gradient-to-r from-cyan-500 to-green-600'>
+        <div className='bg-gradient-to-r from-green-300 via-green-400 to-green-500'>
           <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
             <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
               <h1 class=" sm:text-5xl text-4xl mb-4 font-medium text-white">Have a look at our works and projects</h1>
               <div class="flex justify-center">
-                <a href="/projects" class="flex-shrink-0 inline-flex text-white bg-sky-800 border-0 py-2 px-8 focus:outline-none hover:bg-sky-900 rounded text-lg mt-10 sm:mt-0">Learn More</a>
+                <a href="/projects" class="flex-shrink-0 inline-flex text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg mt-10 sm:mt-0">Learn More</a>
               </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

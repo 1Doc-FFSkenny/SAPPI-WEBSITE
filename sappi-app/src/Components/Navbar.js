@@ -52,7 +52,7 @@ const Navbar = () => {
                         </div>
 
                         {/* News page link */}
-                        <NavLink to="/" className="text-base font-medium text-black hover:text-green-600">UPDATES</NavLink>
+                        <NavLink to="updates" className="text-base font-medium text-black hover:text-green-600">UPDATES</NavLink>
                         {/* Contact Uslink */}
                         {/* <NavLink to="contact" className="text-base font-medium text-black hover:text-green-600">CONTACT US</NavLink> */}
                         <a href="contact" className="text-base font-medium text-black hover:text-green-600">CONTACT US</a>
