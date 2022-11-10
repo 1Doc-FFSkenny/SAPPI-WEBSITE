@@ -3,6 +3,8 @@ import { useEffect } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+import "./styles/style.css"
+
 function CoreValues() {
     // Initalize AOS pluginnpm install react-dropdown  --save
 
@@ -12,11 +14,11 @@ function CoreValues() {
 
     return (
         <div>
-            <div className='container px-5 py-12 mx-auto'>
+            <div className='container px-5 py-16 mx-auto h-full '>
                 <h1 className='text-3xl font-semibold text-center mt-4 mb-8 text-black lg:text-5xl'>Our Core Values</h1>
 
-                <div class="mt-10">
-                    <dl class="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10 md:space-y-0">
+                <div data-aos="fade-up"  class="mt-10 py-16">
+                    <dl class="space-y-10 md:grid md:grid-cols-2 md:gap-x-8 px-4 md:gap-y-10 md:space-y-0">
                         <div class="relative">
                             <div>
                                 <div class="absolute flex h-12 w-12 items-center justify-center rounded-full bg-green-500"></div>
@@ -61,7 +63,37 @@ function CoreValues() {
                         </div>
                     </dl>
                 </div>
+
+                <div className='mt-16 py-16 h-full'>
+                    <h1 className='text-2xl font-semibold text-left mt-4 mb-8 text-black lg:text-4xl'>Our Core Values</h1>
+
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4 '>
+                        <div className='h-full bg-green-400 px-8 pt-16 pb-24 rounded-lg text-center relative col-span-1 shadow-sm'>
+                            <h1 className='text-left text-2xl font-bold'>System Integration</h1>
+                            <p className='text-left text-lg mt-4'>We bring together component subsystems into a whole, ensuring that seen functions work seamlessly together based on predetermined
+                                and approved specifications and user/client preferences:</p>
+                            <ol className='text-left text-lg mt-4 font-semibold'>
+                                <li>World Class Implementation</li>
+                                <li>Tailored Services</li>
+                            </ol>
+                        </div>
+                        <div className='h-full bg-green-400 px-8 pt-16 pb-24 rounded-lg text-center relative col-span-1 shadow-sm'>
+                            <h1 className='text-left text-2xl font-bold'>Document Management</h1>
+                            <p className='text-left text-lg mt-4'>We take the right puzzle pieces that are unique to your utility, situation, and project.</p>
+                            <p className='text-left text-lg mt-4'>We piece them together in the right amounts to ensure a successful project, and thereby meet your scope, schedule, and cost goals.</p>
+
+                        </div>
+                        <div className='h-full bg-green-400 px-8 pt-16 pb-24 rounded-lg text-center relative col-span-1 shadow-sm'>
+                            <h1 className='text-left text-2xl font-bold'>Project Management </h1>
+                            <p className='text-left text-lg mt-4'>Regardless of your industry or mission, this is the value driver that helps your organization get the most out of its performance.</p>
+                            <p className='text-left text-lg mt-4'>We work with you to craft an implementation plan that fits your needs. </p>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
+           
         </div>
     )
 }

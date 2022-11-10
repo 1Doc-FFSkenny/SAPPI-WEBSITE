@@ -14,6 +14,9 @@ import Projects from './Components/Projects';
 import Updates from './Components/Updates';
 import CoreValues from './Components/CoreValues';
 import Executive from './Components/Executive';
+import GRMC from './Components/GRMC';
+import ELVS from './Components/ELVS';
+import EHR from './Components/EHR';
 
 
 
@@ -22,7 +25,7 @@ const App = () => {
     <div className='App'>
       <Navbar />
       {/* Route Syntax: path="name of page in url" element={<imported component/>} */}
-      <Routes>
+      <Routes> 
         {/* Home page Route */}
         <Route path='/' element={<Home />} />
         {/* Contact page Route */}
@@ -37,6 +40,12 @@ const App = () => {
         <Route path='/corevalues' element={<CoreValues />} />
         {/* Executives page Route */}
         <Route path='/executives' element={<Executive />} />
+        {/* GRMC page Route */}
+        <Route path='/GRMC' element={<GRMC />} />
+        {/* ELVS page Route */}
+        <Route path='/ELVS' element={<ELVS />} />
+        {/* EHR page Route */}
+        <Route path='/EHR' element={<EHR />} />
       </Routes>
       <Footer />
     </div>

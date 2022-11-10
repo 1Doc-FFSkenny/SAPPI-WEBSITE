@@ -39,12 +39,12 @@ const Navbar = () => {
                         {/* About us dropdown */}
                         <div className="relative sub-menu">
                             <Menu>
-                                <Menu.Button className="inline-flex text-lg font-bold">ABOUT US<BiChevronDown /></Menu.Button>
+                                <Menu.Button className="inline-flex text-lg">ABOUT US<BiChevronDown /></Menu.Button>
                                 <Menu.Items className="absolute right-0 mt-2 w-56 py-6 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" >
                                     <div className="px-2 py-2 grid grid-cols-1 align-center mx-auto gap-2">
                                         <Menu.Item>
                                             {({ active }) => (
-                                                <a className="mx-4 text-md font-bold" href="/ourstory">Our Story</a>
+                                                <a className="mx-4 text-md " href="/ourstory">Our Story</a>
                                             )}
                                         </Menu.Item>
                                     </div>
@@ -53,17 +53,17 @@ const Navbar = () => {
                                     <div className="px-2 py-2 grid grid-cols-1 gap-2">
                                         <Menu.Item>
                                             {({ active }) => (
-                                                <a className="mx-4 text-md font-bold" href="/ourstory">Our Story</a>
+                                                <a className="mx-4 text-md " href="/ourstory">Our Story</a>
                                             )}
                                         </Menu.Item>
                                         <Menu.Item>
                                             {({ active }) => (
-                                                <a className="mx-4 text-md font-bold" href="/corevalues">Core Values</a>
+                                                <a className="mx-4 text-md " href="/corevalues">Core Values</a>
                                             )}
                                         </Menu.Item>
                                         <Menu.Item>
                                             {({ active }) => (
-                                                <a className="mx-4 text-md font-bold" href="/executives">Our Executives</a>
+                                                <a className="mx-4 text-md " href="/executives">Our Executives</a>
                                             )}
                                         </Menu.Item>
                                     </div>
@@ -75,27 +75,27 @@ const Navbar = () => {
                         {/* Projects Dropdown */}
                         <div className="relative sub-menu">
                                 <Menu>
-                                    <Menu.Button className="inline-flex text-lg font-bold">PROJECTS <BiChevronDown /></Menu.Button>
+                                    <Menu.Button className="inline-flex text-lg ">PROJECTS <BiChevronDown /></Menu.Button>
                                     <Menu.Items className="absolute right-0 mt-2 w-56 py-6 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" >
                                         <div className="px-2 py-2 grid grid-cols-1 gap-2">
                                             <Menu.Item>
                                                 {({ active }) => (
-                                                    <a className="mx-4 text-md font-bold" href="/projects">Overview</a>
+                                                    <a className="mx-4 text-md " href="/projects">Overview</a>
                                                 )}
                                             </Menu.Item>
                                             <Menu.Item>
                                                 {({ active }) => (
-                                                    <a className="mx-4 text-md font-bold" href="/">GRMC</a>
+                                                    <a className="mx-4 text-md " href="/GRMC">GRMC</a>
                                                 )}
                                             </Menu.Item>
                                             <Menu.Item>
                                                 {({ active }) => (
-                                                    <a className="mx-4 text-md font-bold" href="/">ELVS</a>
+                                                    <a className="mx-4 text-md " href="/ELVS">ELVS</a>
                                                 )}
                                             </Menu.Item>
                                             <Menu.Item>
                                                 {({ active }) => (
-                                                    <a className="mx-4 text-md font-bold" href="/">EHR</a>
+                                                    <a className="mx-4 text-md " href="/EHR">EHR</a>
                                                 )}
                                             </Menu.Item>
                                         </div>
@@ -104,15 +104,15 @@ const Navbar = () => {
                         </div>
 
                         {/* News page link */}
-                        <NavLink to="updates" className="text-lg text-black font-bold hover:text-green-600">UPDATES</NavLink>
+                        <NavLink to="updates" className="text-lg text-black  hover:text-green-600">UPDATES</NavLink>
                         {/* Contact Uslink */}
                         {/* <NavLink to="contact" className="text-lg font-medium text-black hover:text-green-600">CONTACT US</NavLink> */}
-                        <NavLink to="contact" className="text-lg text-black font-bold hover:text-green-600">CONTACT US</NavLink>
+                        <NavLink to="contact" className="text-lg text-black  hover:text-green-600">CONTACT US</NavLink>
                     </nav>
 
                     {/* Sign in and Sign up contianer */}
                     <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-                        <NavLink to class="whitespace-nowrap text-lg font-bold text-black">LOGIN</NavLink>
+                        <NavLink to class="whitespace-nowrap text-lg  text-black">LOGIN</NavLink>
                         <NavLink to="#" >
                             <button className="ml-8 inline-flex items-center justify-center whitespace-nowrap rounded-md border border-transparent bg-green-600 px-4 py-2 text-lg text-white shadow-sm hover:bg-green-700">
                                 SIGN UP
