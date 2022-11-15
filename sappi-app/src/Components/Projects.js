@@ -42,7 +42,7 @@ const Projects = () => {
               <span className='mx-auto mb-8 text-sm font-semibold leading-none tracking-tighter text-neutral-800 lg:text-md'>A $215 million projected located in Dededo, Guam</span>
 
               <div class="mt-4">
-                <a href="#" class="inline-flex items-center mt-4 font-semibold text-xl text-green-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
+                <a href="/GRMC" class="inline-flex items-center mt-4 font-semibold text-xl text-green-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>
               </div>
             </div>
             <div class="p-6">
