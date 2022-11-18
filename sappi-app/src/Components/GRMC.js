@@ -15,7 +15,7 @@ function GRMC() {
       <div data-aos="fade-right">
         <div className='container py-12 mx-auto px-2'>
           <span className='mb-4 text-lg'>Hospital Project</span>
-          <h1 class="title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900">Extra-Low Voltage System (ELVS)</h1>
+          <h1 class="title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900">Guam Regional Medical City (GRMC)</h1>
         </div>
       </div>
 

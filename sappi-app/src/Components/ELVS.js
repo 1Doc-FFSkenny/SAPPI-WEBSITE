@@ -17,8 +17,8 @@ function ELVS() {
       <div>
         <div data-aos="fade-right">
           <div className='container py-12 mx-auto px-2'>
-            <span className='mb-4 text-lg'>Hospital Project</span>
-            <h1 class="title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900">Guam Regional Medical City (GRMC)</h1>
+            <span className='mb-4 text-lg'>Electrical Project</span>
+            <h1 class="title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900">Extra-Low Voltage System (ELVS) </h1>
           </div>
         </div>
 
@@ -29,28 +29,27 @@ function ELVS() {
             <div className="grid grid-cols-1 md:grid-cols-2 mt-2">
               <div className='mt-2 px-2 py-2 text-lg'>
                 <ul>
-                  <li className='px-py-2'>Project Cost: $215 Million</li>
-                  <li className='px-py-2'>Location: Dededo, Guam </li>
-                  <li className='px-py-2'>Hospital Size: 267,000 sq. feet</li>
-                  <li className='px-py-2'>Bed Capacity: 130</li>
+                  <li className='px-py-2'>Lorem Ipsum</li>
+                  <li className='px-py-2'>Lorem Ipsum </li>
+                  <li className='px-py-2'>Lorem Ipsum</li>
+                  <li className='px-py-2'>Lorem Ipsum</li>
                 </ul>
               </div>
               <div className='mt-2 px-2 py-2 text-lg'>
                 <ul>
-                  <li className='px-py-2'>Construction Workforce: Approx. 300</li>
-                  <li className='px-py-2'>Hospital Workforce: Approx. 400</li>
-                  <li className='px-py-2'>Opened in 2015, Completed in 2016</li>
+                  <li className='px-py-2'>Lorem Ipsum</li>
+                  <li className='px-py-2'>Lorem Ipsum</li>
+                  <li className='px-py-2'>Lorem Ipsum</li>
                 </ul>
               </div>
 
             </div>
-            <p className='text-lg mt-4'>This infrastructure is configured to allow hospital services to operate in the most efficient possible manner to best serve the needs of the patients, staff, the healthcare organization and the environment. </p>
-            <p className='text-lg mt-4'> The design of the infrastructure facilitates distributed intelligence, allowing the systems to interoperate in different ways within the control center and monitoring of energy in different departments of the facility.  </p>
+            <p className='text-lg mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <p className='text-lg mt-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
             <ul className='mt-2 text-md'>
-              <li className='px-py-2'>Improved energy efficiency in the energy sources.</li>
-              <li className='px-py-2'>improved patient and staff safety in the mental health facility with staff protection and access control systems.</li>
-              <li className='px-py-2'>Improved the environment in a patient room with nurse call services, patient lighting and environmental control.
-              </li>
+              <li className='px-py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+              <li className='px-py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
+              <li className='px-py-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
             </ul>
 
             {/* Gallery */}
