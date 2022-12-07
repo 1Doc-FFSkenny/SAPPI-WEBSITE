@@ -36,7 +36,7 @@ const Navbar = () => {
                         </button>
                     </div>
                     <nav className="hidden space-x-10 md:flex">
-                        {/* About us dropdown */}
+                        {/* OUR STORY, CORE VALUES, OUR EXECUTIVES */}
                         <div className="relative sub-menu">
                             <Menu>
                                 <Menu.Button className="inline-flex text-lg">ABOUT US<BiChevronDown /></Menu.Button>
@@ -74,33 +74,39 @@ const Navbar = () => {
 
                         {/* Projects Dropdown */}
                         <div className="relative sub-menu">
-                                <Menu>
-                                    <Menu.Button className="inline-flex text-lg ">PROJECTS <BiChevronDown /></Menu.Button>
-                                    <Menu.Items className="absolute right-0 mt-2 w-56 py-6 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" >
-                                        <div className="px-2 py-2 grid grid-cols-1 gap-2">
-                                            <Menu.Item>
-                                                {({ active }) => (
-                                                    <a className="mx-4 text-md " href="/projects">Overview</a>
-                                                )}
-                                            </Menu.Item>
-                                            <Menu.Item>
-                                                {({ active }) => (
-                                                    <a className="mx-4 text-md " href="/GRMC">GRMC</a>
-                                                )}
-                                            </Menu.Item>
-                                            <Menu.Item>
-                                                {({ active }) => (
-                                                    <a className="mx-4 text-md " href="/ELVS">ELVS</a>
-                                                )}
-                                            </Menu.Item>
-                                            <Menu.Item>
-                                                {({ active }) => (
-                                                    <a className="mx-4 text-md " href="/EHR">EHR</a>
-                                                )}
-                                            </Menu.Item>
-                                        </div>
-                                    </Menu.Items>
-                                </Menu>
+                            <Menu>
+                                <Menu.Button className="inline-flex text-lg ">PROJECTS <BiChevronDown /></Menu.Button>
+                                <Menu.Items className="absolute right-0 mt-2 w-80 py-6 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" >
+                                    {/* OVERVIEW, GRMC, ELVS, EHR, NURSE CALL SYSTEM */}
+                                    <div className="px-2 py-2 grid grid-cols-1 gap-2">
+                                        <Menu.Item>
+                                            {({ active }) => (
+                                                <a className="mx-4 text-md " href="/projects">Overview</a>
+                                            )}
+                                        </Menu.Item>
+                                        <Menu.Item>
+                                            {({ active }) => (
+                                                <a className="mx-4 text-md " href="/GRMC">Guam Regional Medical Center (GRMC)</a>
+                                            )}
+                                        </Menu.Item>
+                                        <Menu.Item>
+                                            {({ active }) => (
+                                                <a className="mx-4 text-md " href="/ELVS">Electric Low Voltage System (ELVS)</a>
+                                            )}
+                                        </Menu.Item>
+                                        <Menu.Item>
+                                            {({ active }) => (
+                                                <a className="mx-4 text-md " href="/EHR">Electronic Health Record (EHR)</a>
+                                            )}
+                                        </Menu.Item>
+                                        <Menu.Item>
+                                            {({ active }) => (
+                                                <a className="mx-4 text-md " href="/nurse">Nurse Call System</a>
+                                            )}
+                                        </Menu.Item>
+                                    </div>
+                                </Menu.Items>
+                            </Menu>
                         </div>
 
                         {/* News page link */}

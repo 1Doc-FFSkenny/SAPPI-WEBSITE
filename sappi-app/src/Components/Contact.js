@@ -3,9 +3,11 @@ import React from 'react'
 const Contact = () => {
     return (
         <div>
+            {/* Page Container */}
             <div className='py-8'><h1 className='text-3xl font-semibold text-center mt-4 mb-8 text-black lg:text-5xl'>Contact Us</h1></div>
             <div className='h-full md:h-screen '>
                 <div class="container px-5 py-4 mx-auto flex sm:flex-nowrap flex-wrap">
+                    {/* Left side contianer with map */}
                     <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                         <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1939.8517423502524!2d144.821346571604!3d13.49235998698634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x671f82da89cfcd63%3A0xa0682f32b9388705!2s1213%2016%2C%20Barrigada%2C%2096913%2C%20Guam!5e0!3m2!1sen!2sph!4v1666248280466!5m2!1sen!2sph" />
                         <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
@@ -22,6 +24,7 @@ const Contact = () => {
                         </div>
                     </div>
 
+                    {/* Input Contianer */}
                     <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                         <form>
                             <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact Us</h2>

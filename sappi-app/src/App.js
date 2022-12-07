@@ -17,7 +17,7 @@ import Executive from './Components/Executive';
 import GRMC from './Components/GRMC';
 import ELVS from './Components/ELVS';
 import EHR from './Components/EHR';
-
+import Nurse from './Components/Nurse';
 
 
 const App = () => {
@@ -25,7 +25,7 @@ const App = () => {
     <div className='App'>
       <Navbar />
       {/* Route Syntax: path="name of page in url" element={<imported component/>} */}
-      <Routes> 
+      <Routes>
         {/* Home page Route */}
         <Route path='/' element={<Home />} />
         {/* Contact page Route */}
@@ -46,6 +46,8 @@ const App = () => {
         <Route path='/ELVS' element={<ELVS />} />
         {/* EHR page Route */}
         <Route path='/EHR' element={<EHR />} />
+        {/* Nurse page Route */}
+        <Route path='/nurse' element={<Nurse />} />
       </Routes>
       <Footer />
     </div>
