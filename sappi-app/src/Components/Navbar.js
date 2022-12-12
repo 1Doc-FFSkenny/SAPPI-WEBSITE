@@ -76,7 +76,7 @@ const Navbar = () => {
                         <div className="relative sub-menu">
                             <Menu>
                                 <Menu.Button className="inline-flex text-lg ">PROJECTS <BiChevronDown /></Menu.Button>
-                                <Menu.Items className="absolute right-0 mt-2 w-80 py-6 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" >
+                                <Menu.Items className="absolute right-0 mt-2 w-80 py-6 z-50 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" >
                                     {/* OVERVIEW, GRMC, ELVS, EHR, NURSE CALL SYSTEM */}
                                     <div className="px-2 py-2 grid grid-cols-1 gap-2">
                                         <Menu.Item>
