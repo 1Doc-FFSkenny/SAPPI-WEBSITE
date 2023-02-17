@@ -7,7 +7,7 @@ import Project3 from "./img/Project3.png";
 
 import Test1 from "./img/TEST1.jpg";
 import Test2 from "./img/TEST2.jpg";
-import Nurse1 from './img/Nurse1.jpg'
+import Nurse from './img/Nurse2.png'
 
 const Projects = () => {
 
@@ -19,7 +19,7 @@ const Projects = () => {
   return (
     <div>
       <div data-aos="fade-right">
-        <div className='container px-5 py-12 mx-auto'>
+        <div className='container px-4 md:px-8 py-12 mx-auto'>
           <h1 className='text-3xl font-semibold text-center mt-4 mb-8 text-black lg:text-5xl'>Our Projects</h1>
           <div className='mt-4 px-4 md:px-0'>
             <p className='mt- 4 mb-4 leading-relaxed text-center text-lg md:text-left md:text-xl text-black'>SAPPI is a subsidiary of one of the leading IT implementer and systems integrator in Asia and Micronesia,
@@ -34,7 +34,7 @@ const Projects = () => {
       </div>
 
       <div data-aos="fade-left">
-        <div class=" container h-1/2 md:h-screen px-5 py-14 mx-auto">
+        <div class=" container h-1/2 md:h-full px-4 md:px-8 mx-auto">
           <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-2">
 
             {/* PROJECT GRMC DIV */}
@@ -75,10 +75,10 @@ const Projects = () => {
 
             {/* PROJECT NURSE CALL DIV */}
             <div class="p-6">
-              <img class="object-cover object-center w-full mb-8 lg:h-52 md:h-36 rounded-xl" src={Nurse1} alt="blog" />
+              <img class="object-cover object-center w-full mb-8 lg:h-52 md:h-36 rounded-xl" src={Nurse} alt="blog" />
               <h2 class="mb-8 text-xs font-semibold tracking-widest text-green-600 uppercase">01/01/2022</h2>
               <h1 class="mx-auto mb-8 text-2xl font-semibold leading-none tracking-tighter text-neutral-800 lg:text-3xl">Nurse Call System</h1>
-              <span className='mx-auto mb-8 text-sm font-semibold leading-none tracking-tighter text-neutral-800 lg:text-md'>LOREM IPSUM</span>
+              <span className='mx-auto mb-8 text-sm font-semibold leading-none tracking-tighter text-neutral-800 lg:text-md'>Developed the Provider 790 Nurse Call System with the latest technology solutions to optimize staff efficiency, accessibility, staff mobility, and availability.</span>
 
               <div class="mt-4">
                 <a href="/nurse" class="inline-flex items-center mt-4 font-semibold text-xl text-green-600 lg:mb-0 hover:text-neutral-600" title="read more"> Read More » </a>

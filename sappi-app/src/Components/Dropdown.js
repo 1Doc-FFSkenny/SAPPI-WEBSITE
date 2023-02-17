@@ -78,9 +78,16 @@ const Dropdown = () => {
                                 )}
                             </Menu.Item>
                         </div>
+                        <div className="text-left px-4 border-0 border-black font-semibold">
+                            <Menu.Item>
+                                {({ active }) => (
+                                    <a className="mx-4 py-4  text-center text-lg  " href="/nurse">Nurse Call System</a>
+                                )}
+                            </Menu.Item>
+                        </div>
                     </Menu.Items>
 
-                </Menu>               
+                </Menu>
 
                 <div className="flex flex-col text-left text-xl text-black font-medium border">
                     <NavLink to="updates" className="text-lg text-black px-2 py-2">Updates</NavLink>

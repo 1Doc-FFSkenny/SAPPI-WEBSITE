@@ -14,7 +14,7 @@ function CoreValues() {
 
     return (
         <div>
-            <div className='container px-5 py-16 mx-auto h-full '>
+            <div className='container px-4 md:px-8 py-16 mx-auto h-full '>
                 <h1 className='text-3xl font-semibold text-center mt-4 mb-8 text-black lg:text-5xl'>Our Core Values</h1>
 
                 <div data-aos="fade-up"  class="mt-10 py-16">
@@ -64,8 +64,8 @@ function CoreValues() {
                     </dl>
                 </div>
 
-                <div className='mt-16 py-16 h-full'>
-                    <h1 className='text-2xl font-semibold text-left mt-4 mb-8 text-black lg:text-4xl'>Our Core Values</h1>
+                <div className='container px-4 md:px-8 mt-16 py-16 h-full'>
+                    <h1 className='text-2xl font-semibold text-left mt-4 mb-8 text-black lg:text-4xl'>Our Core Competencies</h1>
 
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4 '>
                         <div className='h-full bg-green-400 px-8 pt-16 pb-24 rounded-lg text-center relative col-span-1 shadow-sm'>

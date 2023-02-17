@@ -16,8 +16,8 @@ function Updates() {
     return (
         <div>
             <div data-aos="fade-down">
-                <div className='container px-5 py-12 mx-auto'>
-                    <div class=" h-1/2 mx-auto flex px-5 py-24 md:flex-row flex-col items-center max-w-12xl ">
+                <div className='container px-4 md:px-8 py-12 mx-auto'>
+                    <div class=" h-1/2 mx-auto flex px-4 md:px-8 py-24 md:flex-row flex-col items-center max-w-12xl ">
                         {/* INTRO SECTION */}
                         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start text-center md:text-left mb-16 md:mb-0 items-center ">
                             <h2 class="mb-8 text-xs font-semibold tracking-widest text-green-600 uppercase">01/01/2022</h2>
@@ -34,7 +34,7 @@ function Updates() {
                         </div>
                     </div>
 
-                    <div class="h-1/2 mx-auto flex py-24 md:flex-row flex-col items-center max-w-12xl ">
+                    <div class="h-1/2 mx-auto flex px-4 md:px-8 py-24 md:flex-row flex-col items-center max-w-12xl ">
                             <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-2">
                                 <div class="p-2">
                                     <img class="object-cover object-center w-full mb-8 lg:h-52 md:h-36 rounded-xl" src="https://dummyimage.com/720x400" alt="blog" />
