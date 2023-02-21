@@ -18,7 +18,7 @@ function Nurse() {
         <div>
             <div data-aos="fade-right">
                 <div >
-                    <div className='container py-12 mx-auto px-4 md:px-8'>
+                    <div className='py-12 mx-auto px-4 md:px-8'>
                         <span className='mb-4 text-lg'>Medical Assistant system</span>
                         <h1 class="title-font sm:text-5xl text-4xl mb-4 font-medium text-gray-900 ">Nurse Call System</h1>
                     </div>
@@ -135,8 +135,6 @@ function Nurse() {
                                 </table>
                             </div>
 
-
-
                             {/* Gallery */}
                             <div data-aos="fade-up">
                                 <div className='mt-4 py-12 px-8 md:px-4'>
@@ -159,7 +157,7 @@ function Nurse() {
                                         </div>
                                         <div class="lg:w-1/3 sm:w-1/2 p-4">
                                             <div class="flex relative">
-                                                <img src='https://images.pexels.com/photos/3992948/pexels-photo-3992948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'></img>
+                                                <img src='https://images.pexels.com/photos/8441811/pexels-photo-8441811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'></img>
                                             </div>
                                         </div>
                                         <div class="lg:w-1/3 sm:w-1/2 p-4">
@@ -169,7 +167,7 @@ function Nurse() {
                                         </div>
                                         <div class="lg:w-1/3 sm:w-1/2 p-4">
                                             <div class="flex relative">
-                                                <img src='https://images.pexels.com/photos/4006979/pexels-photo-4006979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'></img>
+                                                <img src='https://images.pexels.com/photos/7578803/pexels-photo-7578803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'></img>
                                             </div>
                                         </div>
                                     </div>
