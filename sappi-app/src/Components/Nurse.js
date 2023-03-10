@@ -131,7 +131,69 @@ function Nurse() {
                                             <td className='border-x border-b px-2 py-4 border-gray-200  '></td>
                                             <td className='border-x border-b px-2 py-4 border-gray-200  '></td>
                                         </tr>
+                                        {/* second group */}
+                                        <tr className=''>
+                                            <th className='py-3 px-3 bg-green-300 text-left'>Features</th>
+                                            <th className='py-3 px-3 bg-green-300'></th>
+                                            <th className='py-3 px-3 bg-green-300'></th>
+                                            <th className='py-3 px-3 bg-green-300'></th>
+                                        </tr>
+                                        <tr className=' cursor-pointer duration-300 '>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>SIP Wireless Phones</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                        </tr>
+                                        <tr className=' cursor-pointer duration-300 '>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>Text Messaging, Pocket Paging, and Smartphone</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                        </tr>
+                                        <tr className=' cursor-pointer duration-300 '>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>ASC/Clinic Room Status and Sequencing</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '></td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '></td>
+                                        </tr>
+                                        <tr className=' cursor-pointer duration-300 '>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>Real-Time Locating</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                        </tr>
+                                        <tr className=' cursor-pointer duration-300 '>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>PC Console Activity Display</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                        </tr>
+                                        <tr className=' cursor-pointer duration-300 '>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>Call Activity Reporting </td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                        </tr>
+                                        <tr className=' cursor-pointer duration-300 '>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>ADT (HL7) Patient Information</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '></td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '></td>
+                                        </tr>
+                                        <tr className=' cursor-pointer duration-300 '>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>Automated Overhead Paging</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                        </tr>
+                                        <tr className=' cursor-pointer duration-300 '>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>Smart Bed Integration </td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '>✓</td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '></td>
+                                            <td className='border-x border-b px-2 py-4 border-gray-200  '></td>
+                                        </tr>
                                     </tbody>
+
                                 </table>
                             </div>
 
