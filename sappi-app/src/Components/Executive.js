@@ -31,7 +31,7 @@ function Executive() {
               </div>
               {/* HERO 1 IMG */}
               <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img className='object-fill  h-96 ' src={Exec3}></img>
+                <img className='object-contain ' alt='sappi group photo' src={Exec3}/>
 
               </div>
             </div>
