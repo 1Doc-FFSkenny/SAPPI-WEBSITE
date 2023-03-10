@@ -15,7 +15,7 @@ import { BiChevronDown } from "react-icons/bi";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
-
+ 
     return (
         // Navbar Container
         <div>
